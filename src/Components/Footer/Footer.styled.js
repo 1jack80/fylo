@@ -13,7 +13,7 @@ export const StyledFooter = styled.footer`
     background-color: ${theme.colors.darkBlue3};
 
     .icon-logo {
-      width: 10rem;
+      width: 8rem;
     }
 
     .footerItemWithIcon {
@@ -23,6 +23,7 @@ export const StyledFooter = styled.footer`
       align-items: center;
       justify-items: flex-start;
       height: max-content;
+      max-width: 20rem;
       margin-bottom: 1em;
 
       .icon {
@@ -63,7 +64,26 @@ export const StyledFooter = styled.footer`
 
     .attribution {
       text-align: center;
-      color: ${theme.colors.blue};
+
+      a {
+        color: ${theme.colors.blue};
+      }
+    }
+
+    @media screen and (min-width: 650px) {
+      grid-template-columns: 3fr 2fr 1fr 1fr 2fr;
+      gap: 2rem;
+
+      .icon-logo {
+        grid-column: 1 / -1;
+      }
+
+      .attribution {
+        grid-column: 1 / -1;
+        justify-self: center;
+        font-size: inherit;
+        padding: 4rem;
+      }
     }
   `}
 `;

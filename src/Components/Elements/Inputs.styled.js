@@ -7,7 +7,7 @@ export const InputPrimary = styled.input.attrs((props) => ({
 }))`
   ${({ theme }) => css`
     padding: 0.9rem 2rem;
-    /* min-width: 14rem; */
+    min-width: 14rem;
 
     font-weight: ${theme.font.weight.bold};
     font-family: ${theme.font.family.primary};

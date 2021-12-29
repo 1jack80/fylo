@@ -15,6 +15,11 @@ ${({ theme }) => css`
   a {
     color: inherit;
     text-decoration: none;
+
+    cursor: pointer;
+  }
+  input[type=button]{
+    cursor pointer;
   }
 
   img {

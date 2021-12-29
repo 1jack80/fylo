@@ -8,9 +8,15 @@ function Nav() {
       <Logo />
 
       <ul className="nav-links">
-        <li className="nav-link">Features</li>
-        <li className="nav-link">Team</li>
-        <li className="nav-link">Sign in</li>
+        <li className="nav-link">
+          <a href="/">Features</a>
+        </li>
+        <li className="nav-link">
+          <a href="/">Team</a>
+        </li>
+        <li className="nav-link">
+          <a href="/">Sign in</a>
+        </li>
       </ul>
     </StyledNav>
   );

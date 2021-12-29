@@ -3,14 +3,26 @@ import { css } from "styled-components";
 
 export const StyledTestimonials = styled.section`
   ${({ theme }) => css`
-    padding: 9rem ${theme.layout.containerPadding};
+    padding: 8rem ${theme.layout.containerPadding} 2rem;
     display: grid;
-    gap: 3em;
-    background: url(./images/bgs/bg-quotes.png) no-repeat;
-    background-position: 13% 7.7rem;
-    background-size: 8%;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    margin: auto;
+    justify-content: center;
 
-    justify-items: center;
+    .card {
+      height: max-content;
+      grid-column: 1 / -1;
+      margin: 8rem auto -4rem;
+    }
+
+    @media screen and (min-width: 650px) {
+      grid-template-columns: repeat(3, 1fr);
+
+      .card {
+        margin: 8rem auto -7rem;
+      }
+    }
   `}
 `;
 
@@ -21,6 +33,7 @@ export const Testimonial = styled.section`
     border-radius: 5px;
     background-color: ${theme.colors.darkBlue4};
     font-size: ${theme.font.size.small};
+    width: 100%;
     max-width: 20rem;
 
     .person {

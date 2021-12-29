@@ -3,13 +3,17 @@ import { css } from "styled-components";
 
 export const StyledAdSection = styled.section`
   ${({ theme }) => css`
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: flex-start;
     justify-content: center;
-
-    gap: 1.5em;
+    gap: 2em;
     padding: ${theme.layout.containerPadding};
+
+    p {
+      margin: 1em 0;
+      /* width: 80%; */
+      max-width: 30rem;
+    }
     img {
       margin-bottom: 2em;
     }
@@ -20,7 +24,7 @@ export const StyledAdSection = styled.section`
       align-items: center;
       justify-content: center;
       position: relative;
-      /* width: max-content; */
+      width: max-content;
 
       &::after {
         content: "";
@@ -35,6 +39,16 @@ export const StyledAdSection = styled.section`
       .icon {
         width: 1.5em;
       }
+    }
+
+    @media screen and (min-width: 650px) {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-items: space-between;
+      justify-content: center;
+      margin: auto;
+      max-width: 90rem;
+      gap: 5em;
     }
   `}
 `;

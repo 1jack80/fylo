@@ -9,6 +9,19 @@ export const StyledFeatures = styled.section`
     gap: 7rem;
 
     background-color: ${theme.colors.darkBlue2};
+
+    @media screen and (min-width: 650px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      justify-content: center;
+      justify-items: center;
+      align-items: flex-end
+      gap: 0em;
+      width: 100%;
+      max-width: 60rem;
+      margin: auto;
+
+    }
   `}
 `;
 
@@ -17,7 +30,7 @@ export const Feature = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
     gap: 1em;
 

@@ -16,7 +16,7 @@ function Header() {
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <InputPrimary value="Get started for free" />
+        <InputPrimary value="Get started" />
       </article>
     </StyledHeader>
   );

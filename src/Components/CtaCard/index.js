@@ -4,7 +4,7 @@ import { StyledCard } from "./Card.styled";
 
 function CtaCard() {
   return (
-    <StyledCard>
+    <StyledCard className="card">
       <h3>Get early access today</h3>
       <p>
         It only takes a minute to sign up and our free starter tier is extremely

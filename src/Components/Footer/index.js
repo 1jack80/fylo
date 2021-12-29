@@ -11,14 +11,14 @@ function Footer() {
   return (
     <StyledFooter>
       <Logo />
+      <div className="footerItemWithIcon fiwi1">
+        <IconLocation />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua
+        </p>
+      </div>
       <div>
-        <div className="footerItemWithIcon fiwi1">
-          <IconLocation />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </p>
-        </div>
         <div className="footerItemWithIcon">
           <IconPhone /> <a href="tel: +1-543-123-4567">+1-543-123-4567</a>
         </div>
@@ -51,13 +51,17 @@ function Footer() {
           <IoLogoInstagram className="icon" />
         </span>
       </section>
-      <p class="attribution">
+      <small class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">David Mainoo</a>.
-      </p>
+        . Coded by{" "}
+        <a href="#" target="_blank">
+          David Mainoo
+        </a>
+        .
+      </small>
     </StyledFooter>
   );
 }
