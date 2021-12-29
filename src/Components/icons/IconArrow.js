@@ -30,7 +30,7 @@ function IconArrow() {
           />
         </filter>
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g transform="translate(2 2)">
           <use fill="#000" filter="url(#a)" href="#b" />
           <use fill="#62E0D9" href="#b" />

@@ -9,11 +9,18 @@ export const StyledTestimonials = styled.section`
     gap: 5%;
     margin: auto;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 
     .card {
       height: max-content;
       grid-column: 1 / -1;
-      margin: 8rem auto -4rem;
+      margin: 8rem auto -9rem;
+
+      form {
+        margin-top: 2rem;
+      }
     }
 
     @media screen and (min-width: 650px) {
@@ -32,9 +39,9 @@ export const Testimonial = styled.section`
     margin: 0 auto;
     border-radius: 5px;
     background-color: ${theme.colors.darkBlue4};
-    font-size: ${theme.font.size.small};
+    font-size: ${theme.font.size.medium};
     width: 100%;
-    max-width: 20rem;
+    max-width: 30rem;
 
     .person {
       display: flex;

@@ -44,7 +44,7 @@ const theme = {
     desktop: "1600px",
   },
   layout: {
-    containerPadding: "5%",
+    containerPadding: "8%",
   },
 };
 

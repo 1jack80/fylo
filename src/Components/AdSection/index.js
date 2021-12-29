@@ -16,8 +16,10 @@ function AdSection() {
           Securely share files and folders with friends, family and colleagues
           for live collaboration. No email attachments required.
         </p>
-        <span className="link">
-          See how Fylo works <IconArrow />
+        <span>
+          <a className="link">
+            See how Fylo works <IconArrow />
+          </a>
         </span>
       </article>
     </StyledAdSection>

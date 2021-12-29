@@ -5,9 +5,9 @@ import featuresData from "./featuresData";
 function Features() {
   return (
     <StyledFeatures>
-      {featuresData.map((feature) => {
+      {featuresData.map((feature, index) => {
         return (
-          <Feature>
+          <Feature key={index}>
             {feature.icon}
             <h2>{feature.title}</h2>
             <p>{feature.text}</p>

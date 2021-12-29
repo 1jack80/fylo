@@ -16,7 +16,13 @@ ${({ theme }) => css`
     color: inherit;
     text-decoration: none;
 
-    cursor: pointer;
+    transition: 0.15s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          color: ${theme.colors.cyan};
+          transition: 0.15s ease-in-out;
+        }
   }
   input[type=button]{
     cursor pointer;
@@ -34,6 +40,9 @@ ${({ theme }) => css`
     font-weight: ${theme.font.weight.normal};
     color: ${theme.colors.gray};
     line-height: 1.5em;
+
+    max-width: 110rem;
+    margin: auto;
   }
 
   h1,

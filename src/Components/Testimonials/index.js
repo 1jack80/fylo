@@ -8,7 +8,7 @@ function Testimonials() {
     <StyledTestimonials>
       {testimonialData.map((item, index) => {
         return (
-          <Testimonial>
+          <Testimonial key={index}>
             <p>{item.testimony}</p>
             <div className="person">
               <img src={item.image} alt={item.testifier} />

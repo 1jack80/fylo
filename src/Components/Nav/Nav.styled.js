@@ -17,12 +17,25 @@ export const StyledNav = styled.nav`
       margin-left: auto;
       display: flex;
       justify-content: space-between;
-      gap: clamp(1em, 1%, 3em);
+      gap: clamp(1em, 1%, 5em);
       align-items: flex-end;
+      width: max-content;
     }
 
     .nav-link {
       text-transform: captialize;
+      transition: 0.15s ease-in-out;
+
+      &:hover {
+        color: ${theme.colors.cyan};
+        transition: 0.15s ease-in-out;
+      }
+    }
+
+    @media screen and (min-width: 650px) {
+      .nav-links {
+        gap: 4em;
+      }
     }
   `}
 `;
