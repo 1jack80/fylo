@@ -1,11 +1,15 @@
 import React from "react";
+import Nav from "./Components/Nav";
+import Header from "./Components/Header";
 import Theme from "./theme/Theme";
+import Features from "./Components/Features";
 
 function App() {
   return (
     <Theme>
-      <h3>this is a test of themes</h3>
-      <a href="#">this is a link</a>
+      <Nav />
+      <Header />
+      <Features />
     </Theme>
   );
 }

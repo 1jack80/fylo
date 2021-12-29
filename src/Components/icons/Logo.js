@@ -3,7 +3,7 @@ import React from "react";
 function Logo() {
   return (
     <svg
-      className="icon"
+      className="icon icon-logo"
       viewBox="0 0 176 52"
       xmlns="http://www.w3.org/2000/svg"
     >

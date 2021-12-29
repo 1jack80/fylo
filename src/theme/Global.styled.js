@@ -17,10 +17,18 @@ ${({ theme }) => css`
     text-decoration: none;
   }
 
+  img {
+    width: 100%;
+  }
+
   body {
+    background-color: ${theme.colors.darkBlue2};
+    color: ${theme.colors.white};
     font-family: ${theme.font.family.primary};
     font-size: ${theme.font.size.medium};
     font-weight: ${theme.font.weight.normal};
+    color: ${theme.colors.gray};
+    line-height: 1.3em;
   }
 
   h1,
@@ -30,6 +38,8 @@ ${({ theme }) => css`
   h5,
   h6 {
     font-family: ${theme.font.family.secondary};
+    color: ${theme.colors.white};
+    line-height: 1.4em;
   }
   h1 {
     font-size: ${theme.font.size.xxLarge};

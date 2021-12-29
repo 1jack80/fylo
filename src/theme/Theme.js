@@ -15,6 +15,7 @@ const theme = {
     lightRed: /* (error): */ "hsl(0, 100%, 63%)",
 
     white: "hsl(0, 0%, 100%)",
+    gray: "hsl(0, 0%,  75%)",
   },
 
   font: {
@@ -28,7 +29,7 @@ const theme = {
     },
     family: {
       primary: `"Open Sans", sans-serif`,
-      secondary: `"Raleway", sans-serif`,
+      secondary: `"Raleway Regular", sans-serif`,
     },
     weight: {
       bold: "700",
@@ -40,6 +41,9 @@ const theme = {
     tablet: "600px",
     laptop: "1200px",
     desktop: "1600px",
+  },
+  layout: {
+    containerPadding: "5%",
   },
 };
 
