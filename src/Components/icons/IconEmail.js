@@ -3,7 +3,7 @@ import React from "react";
 function IconEmail() {
   return (
     <svg
-      classname="icon"
+      className="icon"
       viewBox="0 0 20 16"
       xmlns="http://www.w3.org/2000/svg"
     >

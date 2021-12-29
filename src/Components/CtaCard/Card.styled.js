@@ -7,22 +7,20 @@ export const StyledCard = styled.section`
     flex-direction: column;
     gap: 1em;
 
-    padding: 2em calc(1.8em + 3%);
+    padding: 2em calc(1.8em + 3%) 3rem;
     text-align: center;
     border-radius: 5px;
-    bax-shadow: 1px 4px 8px ${theme.colors.black};
+    box-shadow: 2px 5px 8px -2px ${theme.colors.darkBlue3};
     background-color: ${theme.colors.darkBlue1};
     max-width: 50rem;
-
-    /* button {
-      width: 18rem;
-      margin: auto;
-    } */
+    margin: 8rem 0 -20rem;
+    position: relative;
 
     form {
       display: flex;
       flex-direction: column;
-      gap: 1em;
+      margin-top: 1.5em;
+      gap: 2em;
     }
 
     @media screen and (min-width: 650px) {
