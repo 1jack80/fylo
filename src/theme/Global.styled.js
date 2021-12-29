@@ -28,7 +28,7 @@ ${({ theme }) => css`
     font-size: ${theme.font.size.medium};
     font-weight: ${theme.font.weight.normal};
     color: ${theme.colors.gray};
-    line-height: 1.3em;
+    line-height: 1.5em;
   }
 
   h1,

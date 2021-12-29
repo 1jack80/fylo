@@ -14,6 +14,7 @@ const theme = {
     blue: /* (inside call-to-action gradient): */ "hsl(198, 60%, 50%)",
     lightRed: /* (error): */ "hsl(0, 100%, 63%)",
 
+    black: "hsl(0, 0%, 10%)",
     white: "hsl(0, 0%, 100%)",
     gray: "hsl(0, 0%,  75%)",
   },

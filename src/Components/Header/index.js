@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledHeader } from "./Header.styled";
-import { BtnPrimary } from "../Buttons/BtnPrimary.styled";
+import { BtnPrimary } from "../Elements/BtnPrimary.styled";
 
 function Header() {
   return (
