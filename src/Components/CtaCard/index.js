@@ -1,6 +1,5 @@
 import React from "react";
-import { BtnPrimary } from "../Elements/BtnPrimary.styled";
-// import { InputPrimary } from "../Elements/InputPrimary.styled";
+import { InputEmail, InputPrimary } from "../Elements/Inputs.styled";
 import { StyledCard } from "./Card.styled";
 
 function CtaCard() {
@@ -13,8 +12,10 @@ function CtaCard() {
         help you.
       </p>
 
-      {/* <InputPrimary> */}
-      <BtnPrimary>Get Started For Free</BtnPrimary>
+      <form onSubmit={(e) => e.preventDefault()}>
+        <InputEmail className="email" />
+        <InputPrimary value="Get Started For Free" className="btn" />
+      </form>
     </StyledCard>
   );
 }

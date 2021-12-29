@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledHeader } from "./Header.styled";
-import { BtnPrimary } from "../Elements/BtnPrimary.styled";
+import { InputPrimary } from "../Elements/Inputs.styled";
 
 function Header() {
   return (
@@ -16,7 +16,7 @@ function Header() {
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <BtnPrimary>Get Started</BtnPrimary>
+        <InputPrimary value="Get started for free" />
       </article>
     </StyledHeader>
   );

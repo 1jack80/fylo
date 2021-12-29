@@ -4,12 +4,13 @@ import { css } from "styled-components";
 export const StyledTestimonials = styled.section`
   ${({ theme }) => css`
     padding: 9rem ${theme.layout.containerPadding};
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 3em;
     background: url(./images/bgs/bg-quotes.png) no-repeat;
     background-position: 13% 7.7rem;
     background-size: 8%;
+
+    justify-items: center;
   `}
 `;
 

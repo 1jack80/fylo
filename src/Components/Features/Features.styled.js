@@ -20,7 +20,10 @@ export const Feature = styled.section`
     justify-content: center;
     text-align: center;
     gap: 1em;
-    max-width: 25rem;
+
+    p {
+      max-width: 22rem;
+    }
 
     .icon {
       width: 5rem;
