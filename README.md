@@ -30,11 +30,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Comming soon](./screenshot.jpg)
+![Comming soon](https://github.com/David-Main/fylo/blob/main/Screenshot_2021-12-30%20Fylo.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.con/David-Main/fylo)
+- Solution URL: [Add solution URL here](https://github.com/David-Main/fylo)
 - Live Site URL: [Add live site URL here](https://David-Main.github.io/fylo)
 
 ## My process
