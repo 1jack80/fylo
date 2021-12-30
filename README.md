@@ -29,13 +29,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
-![Comming soon](https://github.com/David-Main/fylo/blob/main/Screenshot_2021-12-30%20Fylo.png)
+image is quite tall so for best experiences please  
+[Click to view screenshot](https://github.com/David-Main/fylo/blob/main/Screenshot_2021-12-30%20Fylo.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/David-Main/fylo)
-- Live Site URL: [Add live site URL here](https://David-Main.github.io/fylo)
+- Solution URL: [https://github.com/David-Main/fylo](https://github.com/David-Main/fylo)
+- Live Site URL: [https://David-Main.github.io/fylo](https://David-Main.github.io/fylo)
 
 ## My process
 
