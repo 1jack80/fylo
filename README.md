@@ -34,8 +34,8 @@ image is quite tall so for best experiences please
 
 ### Links
 
-- Solution URL: [https://github.com/David-Main/fylo](https://github.com/David-Main/fylo)
-- Live Site URL: [https://David-Main.github.io/fylo](https://David-Main.github.io/fylo)
+- Solution URL: [https://github.com/1jack80/fylo](https://github.com/David-Main/fylo)
+- Live Site URL: [https://1jack80.github.io/fylo](https://David-Main.github.io/fylo)
 
 ## My process
 
